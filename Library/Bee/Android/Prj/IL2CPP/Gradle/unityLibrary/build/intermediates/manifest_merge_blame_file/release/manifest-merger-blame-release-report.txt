@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="32" />
+6-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+8-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-63
+9-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-60
+10
+11    <uses-feature android:glEsVersion="0x00030000" />
+11-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+11-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+12    <uses-feature
+12-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+13        android:name="android.hardware.vulkan.version"
+13-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+14        android:required="false" />
+14-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+15    <uses-feature
+15-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-83
+16        android:name="android.hardware.camera"
+16-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-55
+17        android:required="false" />
+17-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:56-80
+18    <uses-feature
+18-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-93
+19        android:name="android.hardware.camera.autofocus"
+19-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-65
+20        android:required="false" />
+20-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:66-90
+21    <uses-feature
+21-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-89
+22        android:name="android.hardware.camera.front"
+22-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-61
+23        android:required="false" />
+23-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:62-86
+24    <uses-feature
+24-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+25        android:name="android.hardware.touchscreen"
+25-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+26        android:required="false" />
+26-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+27    <uses-feature
+27-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+29        android:required="false" />
+29-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+30    <uses-feature
+30-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+32        android:required="false" />
+32-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+33
+34    <application
+34-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-29:17
+35        android:enableOnBackInvokedCallback="true"
+35-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-58
+36        android:extractNativeLibs="true" >
+36-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:59-91
+37        <meta-data
+37-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+38            android:name="unity.splash-mode"
+38-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+39            android:value="0" />
+39-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+40        <meta-data
+40-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+41            android:name="unity.splash-enable"
+41-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+42            android:value="True" />
+42-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+43        <meta-data
+43-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+44            android:name="unity.launch-fullscreen"
+44-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+45            android:value="True" />
+45-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+46        <meta-data
+46-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+47            android:name="unity.render-outside-safearea"
+47-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+48            android:value="True" />
+48-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+49        <meta-data
+49-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+50            android:name="notch.config"
+50-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+51            android:value="portrait|landscape" />
+51-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+52        <meta-data
+52-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+53            android:name="unity.auto-report-fully-drawn"
+53-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-60
+54            android:value="true" />
+54-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:61-81
+55
+56        <activity
+56-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-27:16
+57            android:name="com.unity3d.player.UnityPlayerActivity"
+57-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:15-68
+58            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+58-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:180-361
+59            android:exported="true"
+59-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:433-456
+60            android:hardwareAccelerated="false"
+60-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:397-432
+61            android:launchMode="singleTask"
+61-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:148-179
+62            android:resizeableActivity="false"
+62-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:362-396
+63            android:screenOrientation="fullUser"
+63-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:111-147
+64            android:theme="@style/UnityThemeSelector" >
+64-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:69-110
+65            <intent-filter>
+65-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-24:23
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-69
+66-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:19-66
+67
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:9-61
+68-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-58
+69            </intent-filter>
+70
+71            <meta-data
+71-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-82
+72                android:name="unityplayer.UnityActivity"
+72-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-58
+73                android:value="true" />
+73-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:59-79
+74            <meta-data
+74-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-70
+75                android:name="notch_support"
+75-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-46
+76                android:value="true" />
+76-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:47-67
+77        </activity>
+78
+79        <meta-data
+79-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:5-77
+80            android:name="com.google.ar.core"
+80-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:16-49
+81            android:value="optional" />
+81-->D:\Semestre_2025-2_CS\IHC\Proyecto_1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:50-74
+82    </application>
+83
+84</manifest>
