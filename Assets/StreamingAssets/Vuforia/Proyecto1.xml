@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig>
-  <Tracking>
-    <ImageTarget name="mad2" size="4.000000 5.333333" />
-    <ImageTarget name="bake" size="4.000000 3.000000" />
-    <ImageTarget name="niko" size="4.000000 5.333333" />
-    <ImageTarget name="sakura" size="4.000000 5.333333" />
-  </Tracking>
-</QCARConfig>
